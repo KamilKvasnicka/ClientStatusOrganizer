@@ -94,5 +94,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClientStatusOrganizer.DataAccess\ClientStatusOrganizer.DataAccess.csproj">
+      <Project>{cdb65a89-5485-4b85-95d9-ca1998c58748}</Project>
+      <Name>ClientStatusOrganizer.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientStatusOrganizer.Model\ClientStatusOrganizer.Model.csproj">
+      <Project>{f8ebc8b4-0372-40a2-94fd-e71f5ce81a72}</Project>
+      <Name>ClientStatusOrganizer.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

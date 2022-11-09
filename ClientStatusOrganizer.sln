@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStatusOrganizer.UI", "ClientStatusOrganizer\ClientStatusOrganizer.UI.csproj", "{0B479C4D-6338-46DC-8243-53A7734776B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStatusOrganizer.DataAccess", "ClientStatusOrganizer.DataAccess\ClientStatusOrganizer.DataAccess.csproj", "{CDB65A89-5485-4B85-95D9-CA1998C58748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStatusOrganizer.Model", "ClientStatusOrganizer.Model\ClientStatusOrganizer.Model.csproj", "{F8EBC8B4-0372-40A2-94FD-E71F5CE81A72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0B479C4D-6338-46DC-8243-53A7734776B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B479C4D-6338-46DC-8243-53A7734776B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B479C4D-6338-46DC-8243-53A7734776B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB65A89-5485-4B85-95D9-CA1998C58748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB65A89-5485-4B85-95D9-CA1998C58748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB65A89-5485-4B85-95D9-CA1998C58748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB65A89-5485-4B85-95D9-CA1998C58748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EBC8B4-0372-40A2-94FD-E71F5CE81A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EBC8B4-0372-40A2-94FD-E71F5CE81A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EBC8B4-0372-40A2-94FD-E71F5CE81A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EBC8B4-0372-40A2-94FD-E71F5CE81A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
